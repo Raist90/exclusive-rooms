@@ -2,9 +2,10 @@
 - cambia il font in dm sans V
 - togli i margini ai lati dei testi su cellulare V
 - su mobile fai comparire prima la foto Natalie e poi il testo V
-- (opzionale) trova un altro font per i bottoni e le voci menù
+- (opzionale) trova un altro font per i bottoni e le voci menù V
 - aggiungi anchor e collega i bottoni V
 - aggiungi icona cornetta del telefono in fondo a sinistra sullo schermo
 - aggiungi footer
 - aggiungi il toggle sulle classi active V
 - perfeziona lo stato active dei bottoni (quando li clicchi scompaiono)
+- fixa i parallax scroll con simpleparallax.com
