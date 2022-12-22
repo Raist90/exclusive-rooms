@@ -9,6 +9,7 @@
         content="Tabula Rasa Exclusive Rooms mette a disposizione dei propri clienti due confortevoli suite">
     <meta name="keywords" content="Tabula Rasa, Exclusive Rooms, suite, stanze">
     <meta name="author" content="Manuel De Toma">
+    <meta name="theme-color" content="#293131">
 
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
@@ -20,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Zilla+Slab:wght@700&display=swap"
         rel="stylesheet">
 
     <!-- Custom css -->
@@ -32,9 +33,10 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark sticky-top pattern-bg navbar-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
-                Tabula Rasa
+                Tabula rasa <br>
+                <span><em>- EXCLUSIVE ROOMS -</em></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,6 +47,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#aurora">Aurora</a>
                     <a class="nav-link" href="#natalie">Natalie</a>
+                    <a class="nav-link" href="mailto:tabularasaexclusiverooms@gmail.com">Contattaci</a>
                 </div>
             </div>
         </div>
@@ -53,9 +56,9 @@
     <!-- Hero -->
     <section class="hero-container text-light">
         <div class="hero">
-            <h1>Tabula Rasa</h1>
-            <h6 class="text-uppercase">Exclusive Rooms</h6>
-            <p>Laborum minim eiusmod adipisicing laborum.</p>
+            <h1 class="title">Tabula rasa</h1>
+            <p class="h6 text-uppercase subtitle">- Exclusive Rooms -</p>
+            <p>Ci trovi in Via Orfeo Mazzitelli 240, 70124, Bari</p>
             <a class="btn gold" href="mailto:tabularasaexclusiverooms@gmail.com" role="button">
                 <i class="bi bi-envelope align-icon"></i>
                 Contattaci
@@ -393,6 +396,14 @@
             </div>
         </div>
     </section>
+
+    <footer class="text-center black-bg text-light pt-3 pb-3">
+        <span>Copyright <span id="year"></span> © Tabula rasa</span> <br>
+        <span><a href="https://www.facebook.com/TabulaRasaExclusiveRooms" target="_blank"><i
+                    class="bi bi-facebook align-icon"></i></a></span>
+        <span><a href="https://www.instagram.com/tabularasaexclusiverooms/" target=" _blank"><i
+                    class="bi bi-instagram align-icon"></i></a></span>
+    </footer>
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

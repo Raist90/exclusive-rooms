@@ -31,3 +31,6 @@ for (let i = 0; i < links.length; i++) {
         this.className += " active"
     })
 }
+
+// year script
+document.getElementById("year").innerHTML = new Date().getFullYear();
